@@ -18,7 +18,7 @@ get_ipython().system('pip install gradio')
 
 from openai import OpenAI
 import pandas as pd
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='invalid')
 
 def time_sensitivity(sentence):
   completion = client.chat.completions.create(
